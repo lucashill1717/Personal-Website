@@ -1,11 +1,28 @@
 body {
   background-color: #272732;
   margin: 0;
+  font-family: Verdana;
 }
 
 .navbar {
   margin: 0;
   width: 100%;
-  height: 100px;
-  background-color: #1a1a22;
+  height: 8vh;
+  background-color: #161618;
+}
+
+.nav {
+  height: 100%;
+  display: inline-block;
+  width: 10%;
+  border: none;
+  font-size: large;
+  background-color: #161618;
+  color: rgb(255, 255, 255);
+  font-family: inherit;
+}
+
+.nav:hover {
+  background-color: #59595f;
+  color: #161618;
 }
