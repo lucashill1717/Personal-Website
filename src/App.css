@@ -54,7 +54,17 @@ body {
   letter-spacing: .2rem;
   font-size: 11vw;
   top: 20%;
-  left: 40%;
+  left: 38%;
+  position: absolute;
+  white-space: nowrap;
+}
+
+#moreme {
+  color: white;
+  font-family: inherit;
+  font-size: 6vw;
+  top: 20%;
+  left: 5%;
   position: absolute;
   white-space: nowrap;
 }
