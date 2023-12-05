@@ -1,29 +1,39 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   background-color: #272732;
   margin: 0;
   font-family: 'Segoe UI';
-  background: rgb(2,0,36);
+}
+
+.background {
+  height: 92vh;
   background: linear-gradient(58deg, rgba(2,0,36,1) 18%, rgba(16,126,148,1) 73%, rgba(41,41,59,1) 91%);
   background-size: 100% 100vh;
 }
 
 .navbar {
   margin: 0;
-  width: 100%;
+  width: 100vw;
   height: 8vh;
   background-color: #161618;
+  white-space: nowrap;
 }
 
 .nav {
   height: 100%;
   display: inline-block;
   width: 10%;
+  min-width: 90px;
   border: none;
-  font-size: large;
+  font-size: 100%;
   background-color: #161618;
   color: white;
   font-family: inherit;
-  white-space: nowrap;
+  white-space: inherit;
 }
 
 .nav:hover {
@@ -38,7 +48,7 @@ body {
   box-shadow: 0 0 20px black;
 }
 
-h1 {
+#me {
   color: white;
   font-family: inherit;
   letter-spacing: .2rem;

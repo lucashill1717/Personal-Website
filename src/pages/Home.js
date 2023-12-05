@@ -6,7 +6,8 @@ export default function Home() {
   return (
     <>
       <NavBar />
-      <h1>Lucas Hill</h1>
+      <div className='background'></div>
+      <h1 id='me'>Lucas Hill</h1>
     </>
   );
 }
