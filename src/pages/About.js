@@ -1,4 +1,4 @@
-import NavBar from './Home';
+import NavBar from '../NavBar';
 
 export default function About() {
     return (
