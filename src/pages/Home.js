@@ -9,9 +9,9 @@ export default function Home() {
       <div className='background'></div>
       <h1 id='me'>Lucas Hill.</h1>
       <h2 id='moreme'>
-        Developer.<br/>
-        Scientist.<br/>
-        Engineer.
+        <span style={{color: 'white'}}>Developer.</span><br/>
+        <span style={{color: 'grey'}}>Engineer.</span><br/>
+        <span style={{color: 'blue'}}>Scientist.</span>
       </h2>
     </>
   );

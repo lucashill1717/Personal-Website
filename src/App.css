@@ -57,14 +57,15 @@ body {
   left: 38%;
   position: absolute;
   white-space: nowrap;
+  text-shadow: 0 0 5px black;
 }
 
 #moreme {
-  color: white;
   font-family: inherit;
   font-size: 6vw;
   top: 20%;
   left: 5%;
   position: absolute;
   white-space: nowrap;
+  text-shadow: 0 0 3px black;
 }
