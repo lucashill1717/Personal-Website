@@ -69,3 +69,30 @@ body {
   white-space: nowrap;
   text-shadow: 0 0 3px black;
 }
+
+#sorry {
+  color: white;
+  top: 40%;
+  left: 25%;
+  position: absolute;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  #sorry {
+    top: 20%;
+    left: 12%;
+  }
+}
+
+@media screen and (max-width: 346px) {
+  .nav {
+    width: 7%;
+    min-width: 60px;
+    font-size: 70%;
+  }
+
+  #me {
+    left: 36%;
+  }
+}
