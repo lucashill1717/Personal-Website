@@ -14,11 +14,11 @@ function NavButton({ value, link }) {
 
 export default function NavBar() {
     return (
-        <div className='navbar'>
-        <NavButton value='Home' link='/' />
-        <NavButton value='About Me' link='/about' />
-        <NavButton value='Projects' link='/projects' />
-        <NavButton value='Socials' link='/socials' />
+        <div className='nav-bar'>
+            <NavButton value='Home' link='/'/>
+            <NavButton value='About Me' link='/about'/>
+            <NavButton value='Projects' link='/projects'/>
+            <NavButton value='Socials' link='/socials'/>
         </div>
     );
 }

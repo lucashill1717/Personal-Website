@@ -1,14 +1,13 @@
 import '../App.css';
-import { useState } from 'react';
 import NavBar from '../NavBar';
 
 export default function Home() {
   return (
     <>
       <NavBar/>
-      <div className='background'></div>
+      <div className='home-background'></div>
       <h1 id='me'>Lucas Hill.</h1>
-      <h2 id='moreme'>
+      <h2 id='more-me'>
         <span style={{color: 'white'}}>Developer.</span><br/>
         <span style={{color: 'grey'}}>Engineer.</span><br/>
         <span style={{color: 'blue'}}>Scientist.</span>
