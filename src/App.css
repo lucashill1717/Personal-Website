@@ -155,4 +155,20 @@ body {
   #me {
     left: 36%;
   }
+
+  #socials {
+    font-size: 12vw;
+  }
+}
+
+@media screen and (max-width: 296px) {
+  .social-box {
+    height: 16vh;
+    width: 16vh;
+  }
+
+  .social-box a {
+    font-size: 3vh;
+    letter-spacing: 3px;
+  }
 }

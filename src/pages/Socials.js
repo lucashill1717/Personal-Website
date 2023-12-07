@@ -23,7 +23,7 @@ function Box({ type, link }) {
 
   return (
     <div className='social-box'>
-      <a href={newlink}>{type}</a>
+      <a href={newlink} target="_blank" rel="noopener noreferrer">{type}</a>
     </div>
   );
 }
