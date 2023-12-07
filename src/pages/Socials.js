@@ -30,17 +30,15 @@ function Box({ type, link }) {
 
 export default function Socials() {
   return (
-    <>
-      <div className='socials-background'>
-        <NavBar/>
-        <h1 id='socials'>Socials</h1>
-        <div className='box-holder'>
-          <Box type='Phone' link='7205740135'/>
-          <Box type='Email' link='lucashill1717@gmail.com'/>
-          <Box type='GitHub' link='lucashill1717'/>
-          <Box type='LinkedIn' link='lucas-hill-77830a237'/>
-        </div>
+    <div className='socials-background'>
+      <NavBar/>
+      <h1 id='socials'>Socials</h1>
+      <div className='box-holder'>
+        <Box type='Phone' link='7205740135'/>
+        <Box type='Email' link='lucashill1717@gmail.com'/>
+        <Box type='GitHub' link='lucashill1717'/>
+        <Box type='LinkedIn' link='lucas-hill-77830a237'/>
       </div>
-    </>
+    </div>
   );
 }
