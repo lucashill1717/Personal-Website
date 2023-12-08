@@ -126,6 +126,13 @@ body {
   text-shadow: 0 0 15px black;
 }
 
+#about-me {
+  color: white;
+  margin-left: 3%;
+  font-size: 7vh;
+  text-shadow: 0 0 5px black;
+}
+
 @media screen and (max-width: 1000px) {
   #sorry {
     top: 20%;
