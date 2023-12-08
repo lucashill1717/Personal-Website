@@ -131,6 +131,22 @@ body {
   margin-left: 3%;
   font-size: 7vh;
   text-shadow: 0 0 5px black;
+  font-family: inherit;
+}
+
+.about-box {
+  margin-left: 5px;
+}
+
+p {
+  color: white;
+  text-shadow: 0 0 3px black;
+  font-size: large;
+  font-family: inherit;
+}
+
+img {
+  width: 20vw;
 }
 
 @media screen and (max-width: 1000px) {

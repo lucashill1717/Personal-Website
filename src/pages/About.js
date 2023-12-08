@@ -12,6 +12,7 @@ export default function About() {
           my first large personal project, and I have plans for more
           to come, hosted here.
         </p>
+        <img src='me.jpg' alt='me'/>
       </div>
     </div>
   );
