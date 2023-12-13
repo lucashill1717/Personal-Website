@@ -1,30 +1,32 @@
 html, body {
+  height: 100%;
   max-width: 100%;
   overflow-x: hidden;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #272732;
-  margin: 0;
   font-family: 'Segoe UI';
 }
 
 .home-background {
   height: 92vh;
   background: linear-gradient(58deg, rgba(2,0,36,1) 18%, rgba(16,126,148,1) 73%, rgba(41,41,59,1) 91%);
-  background-size: 100% 100vh;
+  background-size: cover;
 }
 
 .socials-background {
   height: 100vh;
   background: linear-gradient(155deg, rgba(2,0,36,1) 3%, rgba(16,126,148,1) 29%, rgba(41,41,59,1) 96%);
-  background-size: 100% 100vh;
+  background-size: cover;
 }
 
 .about-background {
   height: 100vh;
   background: linear-gradient(353deg, rgba(2,0,36,1) 13%, rgba(16,126,148,1) 24%, rgba(41,41,59,1) 86%);
-  background-size: 100% 100vh;
+  background-size: cover;
 }
 
 .nav-bar {
@@ -69,7 +71,7 @@ body {
   left: 38%;
   position: absolute;
   white-space: nowrap;
-  text-shadow: 0 0 5px black;
+  text-shadow: 0 0 13px black;
 }
 
 #more-me {
@@ -79,7 +81,7 @@ body {
   left: 5%;
   position: absolute;
   white-space: nowrap;
-  text-shadow: 0 0 3px black;
+  text-shadow: 0 0 8px black;
 }
 
 #sorry {
@@ -128,16 +130,18 @@ body {
 
 #about-me {
   color: white;
-  margin-left: 3%;
   font-size: 7vh;
-  text-shadow: 0 0 5px black;
+  text-shadow: 0 0 10px black;
   font-family: inherit;
+  text-align: center;
 }
 
 .about-box {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  width: 80%;
+  margin: auto;
 }
 
 .text {
@@ -146,15 +150,28 @@ body {
 
 p {
   color: white;
-  text-shadow: 0 0 3px black;
+  text-shadow: 0 0 5px black;
   font-size: large;
   font-family: inherit;
   margin: 0 10px 20px;
+  text-align: center;
 }
 
 img {
   max-width: 50%;
+
   max-height: 70vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 10px black;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 1160px) {
+  .about-box {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -162,6 +179,19 @@ img {
     top: 20%;
     left: 12%;
   }
+}
+
+@media screen and (max-width: 930px) {
+  p {
+    font-size: medium;
+  }
+  .about-background, .socials-background {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 775px) {
+
 }
 
 @media screen and (max-width: 600px) {
