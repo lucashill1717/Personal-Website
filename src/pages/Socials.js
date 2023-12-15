@@ -1,6 +1,6 @@
 import NavBar from '../NavBar';
 
-function Box({ type, link }) {
+function Social({ type, link }) {
   let newlink;
 
   switch (type) {
@@ -34,10 +34,10 @@ export default function Socials() {
       <NavBar/>
       <h1 id='socials'>Socials</h1>
       <div className='box-holder'>
-        <Box type='Phone' link='7205740135'/>
-        <Box type='Email' link='lucashill1717@gmail.com'/>
-        <Box type='GitHub' link='lucashill1717'/>
-        <Box type='LinkedIn' link='lucas-hill-77830a237'/>
+        <Social type='Phone' link='7205740135'/>
+        <Social type='Email' link='lucashill1717@gmail.com'/>
+        <Social type='GitHub' link='lucashill1717'/>
+        <Social type='LinkedIn' link='lucas-hill-77830a237'/>
       </div>
     </div>
   );

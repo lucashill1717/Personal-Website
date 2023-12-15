@@ -168,6 +168,12 @@ img {
   border-radius: 3px;
 }
 
+@media screen and (min-width: 1500px) {
+  p {
+    font-size: larger;
+  }
+}
+
 @media screen and (max-width: 1160px) {
   .about-box {
     width: 100%;
