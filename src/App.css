@@ -86,10 +86,8 @@ body {
 
 #sorry {
   color: white;
-  top: 40%;
-  left: 25%;
-  position: absolute;
   text-align: center;
+  padding: 35vh 0;
 }
 
 .box-holder {
@@ -180,41 +178,40 @@ img {
   }
 }
 
-@media screen and (max-width: 1000px) {
-  #sorry {
-    top: 20%;
-    left: 12%;
-  }
-}
-
 @media screen and (max-width: 930px) {
   p {
     font-size: medium;
   }
-  .about-background, .socials-background {
-    height: 100%;
+
+  .social-box {
+    height: 17vh;
+    width: 17vh;
   }
-}
-
-@media screen and (max-width: 775px) {
-
+  
+  .social-box a {
+    font-size: 3vh;
+    letter-spacing: 3px;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .box-holder {
     margin-top: 20%;
   }
+
+  .about-background {
+    height: 100%;
+  }
 }
 
-@media screen and (min-width: 443px) and (max-width: 591px) {
+@media screen and (max-width: 376px) {
   .social-box {
-    height: 16vh;
-    width: 16vh;
+    height: 19vh;
+    width: 19vh;
   }
 
   .social-box a {
-    font-size: 3vh;
-    letter-spacing: 3px;
+    font-size: 4vh;
   }
 }
 
