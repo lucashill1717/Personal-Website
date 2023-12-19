@@ -38,7 +38,7 @@ export default function About() {
             appreciates the hard work I've put in!
           </p>
         </div>
-        <img src='me.jpg' alt='me'/>
+        <img src='/static/me.jpg' alt='me'/>
       </div>
     </div>
   );
