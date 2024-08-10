@@ -1,6 +1,3 @@
-The repository for my personal website. Built from scratch using React.
+The repository for my old personal website. Built from scratch using React.
 
-Now hosted at [lucas-hill.xyz](http://lucas-hill.xyz)!
-
-Much of what is in this repo is very modular, and I encourage new developers
-to use parts of what I have made in their own projects.
+Updated version [here](https://github.com/lucashill1717/new-personal-website)
